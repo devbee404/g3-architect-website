@@ -130,26 +130,35 @@
     font-size: 2.8rem;
 }
 .facts-container{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
     }
     .facts{
-        margin-right: 100px;
         border:1px solid rgb(238, 166, 32);
         border-radius: 8px;
-        padding: 45px 35px 30px 35px;
-        text-align: center;
         width: 241px;
         height: 241px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
     }
-
+.facts-img{
+    margin-top: 35px;
+}
 .facts-numbers{
     font-size: 2.7rem;
     font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
 }
 .facts-name{
     font-weight: 600;
     font-size: 1.01rem;
-    width: 160px;
+    width: 160px;  
+    padding: 0 0 0 35px;
 }
     
 
