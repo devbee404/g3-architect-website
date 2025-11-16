@@ -124,6 +124,43 @@
     .features-font{
         font-weight: 500;
     }
+/* facts */
+.facts-title{
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.facts-container{
+        display: flex;
+    }
+    .facts{
+        margin-right: 100px;
+        border:1px solid rgb(238, 166, 32);
+        border-radius: 8px;
+        padding: 45px 35px 30px 35px;
+        text-align: center;
+        width: 241px;
+        height: 241px;
+    }
+
+.facts-numbers{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.facts-name{
+    font-weight: 600;
+    font-size: 1.01rem;
+    width: 160px;
+}
+    
+
+
+
+
+
+
+
+
+
 
 /* Responsive  */
 /* header */
@@ -138,7 +175,6 @@
     .features{
         margin-left: 20px;
     }
-
 }
 
 /* for mideum display */
